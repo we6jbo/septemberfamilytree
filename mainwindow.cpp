@@ -8,7 +8,7 @@
 
 static const char *treeData = R"(
 0|Jeremiah O'Neal|AKA_TE324543
-1|Dudley McCabe|TG943760
+1|Dudley McCabe|TG943760, AKA_TE324544
 2|Lester McCabe|TG708346
 3|Alice S Elliott|TG492705
 4|Elizabeth McQuiston|TG270541
@@ -66,15 +66,30 @@ static const char *treeData = R"(
 5|Mary Martha Shumaker|TG215839
 6|Jemima Blunk|TG394660
 6|Thomas J Shoemake|TG413298
-1|Natalie|TG264819
-2|Minnie Schlorff|TG742018
-3|Mary Johannsen|TG324786
-4|Elena M Johannsen|TG654173
-5|Lorenz Hinrichsen|TG702543
-5|Sophia Margaretha Hinrichsen|TG404787
-4|Johannsen|TG323932
-3|William John Ludwig Sclorf|TG916000
-2|Percy W Shapley|TG739123
+1|Natalie O'Neal|TG264819, AKA_TE324545
+2|Betty Shapley|TG150984
+3|Minnie Schlorff|TG742018
+4|Mary Johannsen|TG324786
+5|Elena M Johannsen|TG654173
+6|Lorenz Hinrichsen|TG702543
+6|Sophia Margaretha Hinrichsen|TG404787
+5|Johannsen|TG323932
+4|William John Ludwig Sclorf|TG916000
+3|Percy W Shapley|TG739123
+4|Olive G Stafford|TG759401
+5|Alice Waite|TG907216
+6|Barton J Waite|TG740772
+6|Susannah Clark Bacon|TG733873
+5|William Mark Stafford|TG318940
+6|Hulda Sylvah|TG406771
+6|Joseph W Stafford|TG217558
+4|William Shapley|TG618235, TG637004
+5|Mary Rice|TG762503
+6|Ica Foster Rice|TG893959
+6|Kezia Bair|TG275416
+5|Patrick Henry Shapley|TG491628
+6|Clarissa Gridley|TG193860
+2|Robert Burke Maynard|TG879461
 3|Amelia B Hetdke|TG984215
 4|Amelia Kiehlbauch|TG472690
 5|Barbara Beck|TG835097
