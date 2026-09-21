@@ -5,3 +5,9 @@ CMakeFiles/
 CMakeCache.txt
 *.o
 *.user
+.flatpak-builder/
+flatpak-build/
+flatpak-repo/
+*.flatpak
+*.snap
+snap-output/

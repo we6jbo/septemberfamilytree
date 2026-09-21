@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.oneal.SeptemberFamilyTree</id>
+  <name>September Family Tree</name>
+  <summary>A GUI family tree viewer with names and TG provenance numbers</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <description>
+    <p>A Qt desktop application that displays a family tree graph with names and TG provenance identifiers. The tree starts from the author and extends backward through ancestry, showing parent-child relationships across multiple generations.</p>
+  </description>
+  <launchable type="desktop-id">org.oneal.SeptemberFamilyTree.desktop</launchable>
+  <categories>
+    <category>Education</category>
+    <category>Genealogy</category>
+  </categories>
+  <releases>
+    <release version="0.1" date="2026-09-20">
+      <description>
+        <p>Initial release with full family tree display.</p>
+      </description>
+    </release>
+  </releases>
+</component>

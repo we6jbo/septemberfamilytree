@@ -22,3 +22,15 @@ target_link_libraries(septemberfamilytree PRIVATE Qt6::Widgets)
 install(TARGETS septemberfamilytree
     RUNTIME DESTINATION bin
 )
+
+install(FILES org.oneal.SeptemberFamilyTree.desktop
+    DESTINATION share/applications
+)
+
+install(FILES org.oneal.SeptemberFamilyTree.svg
+    DESTINATION share/icons/hicolor/scalable/apps
+)
+
+install(FILES org.oneal.SeptemberFamilyTree.metainfo.xml
+    DESTINATION share/metainfo
+)

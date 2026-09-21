@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=September Family Tree
+Comment=A GUI family tree viewer with names and TG provenance numbers
+Exec=septemberfamilytree
+Icon=org.oneal.SeptemberFamilyTree
+Terminal=false
+Categories=Education;X-Genealogy;

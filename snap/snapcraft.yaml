@@ -1,0 +1,41 @@
+name: september-family-tree
+title: September Family Tree
+base: core24
+version: '0.1'
+summary: A GUI family tree viewer with names and TG provenance numbers
+description: |
+  September Family Tree is a Qt application that displays a family tree graph
+  with names and TG provenance identifiers. The tree starts from the author
+  and extends backward through ancestry, showing parent-child relationships
+  across multiple generations.
+
+grade: stable
+confinement: strict
+license: Apache-2.0
+contact: https://github.com/we6jbo/septemberfamilytree/issues
+source-code: https://github.com/we6jbo/septemberfamilytree
+website: https://github.com/we6jbo/septemberfamilytree
+
+apps:
+  september-family-tree:
+    command: usr/bin/septemberfamilytree
+    extensions:
+      - kde-neon-6
+    desktop: usr/share/applications/org.oneal.SeptemberFamilyTree.desktop
+
+parts:
+  september-family-tree:
+    plugin: cmake
+    source: .
+    source-type: local
+    cmake-parameters:
+      - -DCMAKE_INSTALL_PREFIX=/usr
+      - -DCMAKE_BUILD_TYPE=Release
+    override-build: |
+      craftctl default
+      install -Dm644 "$CRAFT_PART_SRC/org.oneal.SeptemberFamilyTree.desktop" \
+        "$CRAFT_PART_INSTALL/usr/share/applications/org.oneal.SeptemberFamilyTree.desktop"
+      install -Dm644 "$CRAFT_PART_SRC/org.oneal.SeptemberFamilyTree.svg" \
+        "$CRAFT_PART_INSTALL/usr/share/icons/hicolor/scalable/apps/org.oneal.SeptemberFamilyTree.svg"
+      install -Dm644 "$CRAFT_PART_SRC/org.oneal.SeptemberFamilyTree.metainfo.xml" \
+        "$CRAFT_PART_INSTALL/usr/share/metainfo/org.oneal.SeptemberFamilyTree.metainfo.xml"
